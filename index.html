@@ -1,0 +1,95 @@
+<html dir="rtl" lang="fa-IR">
+	<head>	
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css">
+		<script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
+		<script>
+		document.addEventListener
+		("DOMContentLoaded", ()=>
+		{
+			const lenis= new Lenis({
+				lerp: 0.070,
+				smoothWheel: true,
+			});
+		function raf(time) {
+			lenis.raf(time);
+			requestAnimationFrame(raf);
+		}
+		requestAnimationFrame(raf);
+		});
+		</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=no">	
+	</head>
+	<body>
+	
+	<section id="navbarsec">
+		<div id="containernav" class="container">
+			<div id="logo" class="navbar"></div>
+			<div id="navbar" class="lg">
+				<div id="containerbtn" class="container">
+					<div id="homebtn" class="navbtn"><p class="txt">خانه</p></div>
+					<div id="vlogbtn" class="navbtn"><p class="txt">وبلاگ ها</p></div>
+					<div id="prdctbtn" class="navbtn"><p class="txt">فروشگاه</p></div>
+					<div id="smbtn" class="navbtn"><p class="txt">قوانین</p></div>
+					<div id="faqbtn" class="navbtn"><p class="txt">سوالات</p></div>
+				</div>
+			</div>
+			<div id="account" class="lg">
+				<div id="backgroundacc">
+				<svg id="accountlogo" width="50%" height="3.5dvh" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M20 21C20 18.2386 16.4183 16 12 16C7.58172 16 4 18.2386 4 21M12 13C9.23858 13 7 10.7614 7 8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8C17 10.7614 14.7614 13 12 13Z" stroke="#3C3C43" stroke-opacity="0.6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+	<section id="newpsec">
+		<div id="containernewp" class="container">
+			<div id="newproduct1" class="newp" class="lg"><p id="textp1" class="textp">اطلاعات محصول</p></div>
+			<div id="newproduct2" class="newp"><p id="textp2" class="textp">اطلاعات محصول</p></div>
+			<div id="newproduct3" class="newp"><p id="textp3" class="textp">اطلاعات محصول</p></div>
+			<div id="newproduct4" class="newp"><p id="textp4" class="textp">اطلاعات محصول</p></div>
+		</div>                   
+		<p id="moreproduct" class="textp"><strong>محصولات بیشتر</strong></p>
+		<hr>
+	</section>
+	<section id="hotproduct">
+		<p id="titlehotp" class="txt"><strong>محصولات پرطرفدار</strong></p>
+		<div id="containerhotp" class="container">
+			<div id="hotproduct1"><p id="textp1" class="textp">اطلاعات محصول</p></div>
+			<div id="hotproduct2"><p id="textp2" class="textp">اطلاعات محصول</p></div>
+			<div id="hotproduct3"><p id="textp3" class="textp">اطلاعات محصول</p></div>
+			<div id="hotproduct4"><p id="textp4" class="textp">اطلاعات محصول</p></div>
+		</div>
+		<hr class="space">
+	</section>
+	<section id="adssec">
+		<div id="containerads" class="container">
+			<div id="ad1"><p id="textad1" class="txt">تبلیغ اول</p></div>
+			<div id="ad2"><p id="textad2" class="txt">تبلیغ دوم</p></div>
+		</div>
+	</section>
+	<section id="media">
+		<div id="containermedia">
+			
+	</section>
+	<section id="footer">
+		<div id="bgfooter">
+			<div id="containeraboutus">
+				<p id="aboutus"><strong>درباره ما</strong><br>اینجا باید موارد مهم و اطلاعاتت رو بنویسی و این کادر رو کامل کنی.</p>
+				
+				<p id="social"><strong>شبکه های اجتماعی</strong><br>برای اطلاع از تخفیف ها و ایونت ها شبکه های اجتماعی مارا دنبال کنید.</p>
+				<div id="containersmicon">
+					<div id="instagram">
+					</div>
+					<div id="robika">
+					</div>
+					<div id="telegram">
+					</div>
+				</div>
+			</div><br><hr id="space2">
+		</div>
+	</section>
+	</body>
+</html>
