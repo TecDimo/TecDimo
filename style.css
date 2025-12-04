@@ -1827,6 +1827,7 @@ body {
 	.intro-metrics {
 		flex-direction: column;
 		gap: 25px;
+		margin-top:-10dvh;
 	}
 
 	.metric-value {
@@ -1862,7 +1863,5 @@ body {
 	
 	.back-btn {
 		height:6dvh;
-		margin-top:-8.75dvh;
 	}
 }
-
