@@ -1866,13 +1866,14 @@ body {
 		height:2dvh;
 		align-content:center;
 		align-items:center;
-		margin-top:1dvh;
+		margin-top:2dvh;
 	}
 
 	.footer p {
 		font-size:8px;
 	}
 }
+
 
 
 
