@@ -1863,10 +1863,15 @@ body {
 	}
 	
 	.back-btn {
-		height:3dvh;
+		height:2dvh;
+		font-size:5px;
+	}
+
+	.footer p {
 		font-size:8px;
 	}
 }
+
 
 
 
