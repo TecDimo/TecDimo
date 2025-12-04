@@ -1849,7 +1849,8 @@ body {
 	}
 	
 	.filter-btn {
-		font-size:8px;
+		font-size:10px;
+		width:30%;
 	}
 	
 	.small-brand {
@@ -1865,3 +1866,4 @@ body {
 		height:6dvh;
 	}
 }
+
