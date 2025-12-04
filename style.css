@@ -1741,7 +1741,7 @@ body {
 		right: auto;
 		display: block;
 		width: fit-content;
-		margin-top:-8dvh;
+		margin-top:-3dvh;
 	}
 
 	.content-section {
@@ -1865,3 +1865,4 @@ body {
 		margin-top:-8.75dvh;
 	}
 }
+
