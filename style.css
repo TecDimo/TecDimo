@@ -189,10 +189,9 @@ body {
 	font-size: 52px;
 	font-weight: 600;
 	margin-bottom: 12px;
-	background: linear-gradient(135deg, #FFF899 25%, yellow 80%, #FFF899 25%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color:#fff899;
 	background-clip: text;
+	text-shadow:2px 2px 5px black;
 }
 
 .tagline {
@@ -408,6 +407,7 @@ body {
 
 #id-message {
 	color: #7aa6ff;
+	cursor:pointer;
 }
 
 #id-message:hover {
@@ -1046,7 +1046,7 @@ body {
 }
 
 .service-row-icon {
-	width: 240px;
+	width: 180px;
 	height: 180px;
 	min-width: 140px;
 	border-radius: 16px;
@@ -1117,19 +1117,19 @@ body {
 
 .tab-btn {
 	padding: 12px 28px;
-	background: rgba(168 ,168 ,168, 0.5);
+	background: transparent;
 	backdrop-filter: blur(20px);
 	-webkit-backdrop-filter: blur(20px);
 	border: 1px solid var(--glass-border);
 	border-radius: 50px;
-	color: rgba(255, 255, 255, 0.6);
+	color: black;
 	font-family: "Vazirmatn";
 	font-size: 13px;
 	cursor: pointer;
 	transition: all 0.3s ease;
 	position: relative;
 	overflow: hidden;
-	width:25%;
+	width:35%;
 }
 
 .tab-btn::before {
@@ -1139,20 +1139,21 @@ body {
 	left: 0;
 	right: 0;
 	height: 50%;
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, transparent 100%);
+	background: transparent;
 	border-radius: 50px 50px 0 0;
 }
 
 .tab-btn:hover {
 	background: rgba(255, 255, 255, 0.05);
 	color: #ffffff;
+	background: linear-gradient(to top, #FFF899, transparent 90%);
 }
 
 .tab-btn.active {
-	background: linear-gradient(135deg, rgba(0, 240, 255, 0.2), rgba(255, 0, 212, 0.2));
-	border-color: var(--primary);
-	color: var(--primary);
-	box-shadow: 0 0 20px var(--glow-cyan);
+	background: linear-gradient(to top, #FFF899, transparent 90%);
+	border-color: #fff899;
+	color: white;
+	box-shadow: 0 0 20px #fff899;
 }
 
 .tab-pane {
@@ -1742,7 +1743,7 @@ body {
 	}
 
 	.service-row-icon {
-		width: 200px;
+		width: 150px;
 		height: 150px;
 		min-width: 120px;
 	}
@@ -1884,7 +1885,6 @@ body {
 	}
 	
 	.back-btn {
-		height:3.5dvh;
 		text-align:center;
 		margin-bottom:40px;
 		font-size:8.5px;
@@ -1904,4 +1904,17 @@ body {
 		height:300px;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
