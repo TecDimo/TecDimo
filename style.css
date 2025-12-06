@@ -905,13 +905,19 @@ body {
 	-webkit-backdrop-filter: blur(20px);
 	border: 3px solid #FFF899;
 	padding-right:10%;
-	border-radius:7px;
+	border-radius:12px;
 	padding-top:6px;
 	padding-bottom:6px;
 	font-size:16px;
 	margin-bottom:10px;
 	cursor:pointer;
+	color:gray;
 }
+
+.question:hover {
+	color:#4F4F4F;
+}
+
 
 .answer {
 	align-content:center;
@@ -923,12 +929,19 @@ body {
 	margin-bottom:15px;
 	padding-top:7px;
 	padding-bottom:7px;
-	border-radius:7px;
+	border-radius:12px;
 	margin-top:-3px;
 	font-size:16px;
 	padding-right:5%;
 	padding-left:5%;
 	text-align:justify;
+	width:95%;
+	margin-right:5%;
+	color:gray;
+}
+
+.answer:hover {
+	color:#4F4F4F;
 }
 	
 
