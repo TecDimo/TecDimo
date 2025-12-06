@@ -911,11 +911,11 @@ body {
 	font-size:16px;
 	margin-bottom:10px;
 	cursor:pointer;
-	color:gray;
+	color:#292929;
 }
 
 .question:hover {
-	color:#4F4F4F;
+	color:#0A0A0A;
 }
 
 
@@ -937,11 +937,11 @@ body {
 	text-align:justify;
 	width:95%;
 	margin-right:5%;
-	color:gray;
+	color:#292929;
 }
 
 .answer:hover {
-	color:#4F4F4F;
+	color:#0A0A0A;
 }
 	
 
@@ -1932,6 +1932,7 @@ body {
 		height:300px;
 	}
 }
+
 
 
 
