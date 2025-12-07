@@ -262,7 +262,6 @@ function copy() {
    }
 }
 
-<script>
     let backPressCount = 0;
 
     function backtomenu() {
@@ -291,4 +290,4 @@ function copy() {
             }
         });
     });
-</script>
+
