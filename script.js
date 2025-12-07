@@ -239,50 +239,7 @@ function filterGallery(category, btn) {
          item.style.display = 'none';
       }
    });
-   
-function copy() {
-    const text = "EHTcodm";
-    
-    const textarea = document.createElement('textarea');
-    textarea.value = text;
-    document.body.appendChild(textarea);
-	
-    textarea.select();
-    textarea.setSelectionRange(0, 99999); 
-    document.execCommand('copy');
-    
-    document.body.removeChild(textarea);
-   }
-}
 
-    let backPressCount = 0;
-
-    function backtomenu() {
-        console.log("برگشت به منو...");
-    }
-
-    window.addEventListener('load', () => {
-        history.pushState(null, null, location.href);
-
-        window.addEventListener('popstate', () => {
-            backPressCount++;
-
-            if (backPressCount >= 3) {
-                if (confirm("آیا مطمئنید که می‌خواهید خارج شوید؟")) {
-                    history.go(-1);
-                } else {
-                    backPressCount = 0;
-                    history.pushState(null, null, location.href);
-                }
-            } else {
-                backtomenu();
-                history.pushState(null, null, location.href);
-
-                const left = 3 - backPressCount;
-                alert(`برای خروج، ${left} بار دیگر دکمه بازگشت را بزنید`);
-            }
-        });
-    });
 
 let backCount = 0;
 const maxBackClicks = 3;
