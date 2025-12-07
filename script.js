@@ -239,5 +239,5 @@ function filterGallery(category, btn) {
          item.style.display = 'none';
       }
    });
-
+}
 
