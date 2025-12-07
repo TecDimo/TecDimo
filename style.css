@@ -1996,8 +1996,11 @@ body {
 	.about-image img {
 		height:300px;
 	}
+	
+	.info-social-btn {
+		font-size:9px;
+	}
 }
-
 
 
 
