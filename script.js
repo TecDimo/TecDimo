@@ -241,20 +241,3 @@ function filterGallery(category, btn) {
    });
 
 
-let backCount = 0;
-const maxBackClicks = 3;
-
-history.pushState(null, null, location.href);
-
-window.addEventListener('popstate', function(event)) {
-	backCount++;
-	if (backCount < maxBackClicks) {
-		history.pushState(null, null, location.href);
-	}
-	
-	else {
-		history.go(-2);
-		history.back();
-	}
-});
-
