@@ -1,10 +1,3 @@
-/* JavaScript Document
-
-TemplateMo 603 Nexaverse
-
-https://templatemo.com/tm-603-nexaverse
-
-*/
 
 // Loading Screen
 window.addEventListener('load', () => {
@@ -290,4 +283,21 @@ function copy() {
             }
         });
     });
+
+let backCount = 0;
+const maxBackClicks = 3;
+
+history.pushState(null, null, location.href);
+
+window.addEventListener('popstate', function(event)) {
+	backCount++;
+	if (backCount < maxBackClicks) {
+		history.pushState(null, null, location.href);
+	}
+	
+	else {
+		history.go(-2);
+		history.back();
+	}
+});
 
