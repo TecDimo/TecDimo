@@ -187,12 +187,12 @@ body {
 	text-decoration:bold;
 }
 
-#rubika {
+#rubika-header {
 	margin-right:10%;
 	margin-left:0;
 }
 
-#etemad {
+#etemad-header {
 	margin-right:0;
 	margin-left:10%;
 }
@@ -2008,5 +2008,6 @@ body {
 	
 	#container-social-btn {
 		height:4dvh;
+		margin-top:10px;
 	}
 }
